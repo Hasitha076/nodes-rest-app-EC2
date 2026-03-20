@@ -20,7 +20,7 @@ app.use("/api/users", userRoutes);
 
 app.use("/api/products", (req, res) => {
   return res.status(200).json({
-    message: "Hello from products route",
+    message: "This is the products route",
   });
 });
 
